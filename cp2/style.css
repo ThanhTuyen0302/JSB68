@@ -1,0 +1,39 @@
+ul.menungang {
+    display: flex;
+    list-style: none;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+ul.menungang li {
+    display: inline;
+}
+.menutren {
+    background-color: aqua;
+    height: 30px;
+    width: 100%;
+}
+
+ul.menungang a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: block;
+    display: inline-block;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    transition: 0.4s;
+}
+
+ul.menungang a:hover {
+    background-color: rgb(19, 122, 138);
+    padding-top: 3px;
+    padding: 9px;
+}
